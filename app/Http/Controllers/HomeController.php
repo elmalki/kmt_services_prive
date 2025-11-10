@@ -15,6 +15,6 @@ class HomeController extends Controller
         $realisations = Realisation::all();
         $qualities = Quality::all();
         $sponsors = Sponsor::all();
-        return Inertia::render('test',compact('realisations','qualities','sponsors'));
+        return Inertia::render('Main',compact('realisations','qualities','sponsors'));
     }
 }

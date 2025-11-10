@@ -14,7 +14,7 @@
                     class="absolute top-0 left-0 h-full w-full object-cover blur-[1px] brightness-75"
                 >
                     <source
-                        src="http://bizmax.test/assets/videos/background_video.mp4"
+                        src="http://www.kmt-service.com/videos/backgroud_video.mp4"
                         type="video/mp4"
                     />
                 </video>
