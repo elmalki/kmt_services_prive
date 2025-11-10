@@ -19,7 +19,7 @@ class ContactController extends Controller
             'subject'=>'required'
         ]);
         $contact = Contact::create($request->all());
-        foreach (['yassine.elmalki@gmail.com'] as $recipient) {
+        foreach (['yassine.elmalki@gmail.com','yassine.elmoudene@gmail.com'] as $recipient) {
             \Illuminate\Support\Facades\Mail::to($recipient)->send(new \App\Mail\NewContactMail($contact));
         }
     }
