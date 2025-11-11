@@ -122,11 +122,7 @@ const footerNavigation = {
                                 >
                             </div>
                             <div class="py-6">
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                                    >Log in</a
-                                >
+                                <LocaleSwitcher></LocaleSwitcher>
                             </div>
                         </div>
                     </div>
@@ -141,7 +137,7 @@ const footerNavigation = {
             </GoogleMap>
         <footer class="relative mx-auto mt-10 max-w-7xl px-6 lg:px-8">
             <div class="border-t border-gray-900/10 py-16 sm:py-24 lg:py-32">
-                <div class="flex justify-between">
+                <div class="md:flex justify-between md:justify-items-center">
                     <img class="h-40" src="../../logo.png" alt="Company name" />
                     <div
                         class="mt-16 flex flex-col  gap-8  xl:mt-0"
@@ -151,12 +147,12 @@ const footerNavigation = {
                                 <p class="">{{page.props.translations.address}}</p>
 
                             </div>
-                        <div class="flex items-center gap-2 text-gray-700">
+                        <div class="flex items-center gap-2 text-gray-700 ">
                             <PhoneIcon class="text-gray-900 size-5"/>
-                            <div class="flex gap-5">
-                                <p>(+212) 671 891 892</p>
-                                <p>/</p>
-                                <p>(+212) 610 60 39 39</p>
+                            <div class="flex gap-5" dir="ltr">
+                                <p dir="ltr">(+212) 671 891 892</p>
+                                <p >/</p>
+                                <p dir="ltr">(+212) 610 60 39 39</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-2 text-gray-700">

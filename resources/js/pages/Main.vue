@@ -86,9 +86,7 @@
                         {{ page.props.translations.faisons_subtitle }}
                     </p>
                     <p class="mt-6 text-lg/8 text-gray-700">
-                        Quis tellus eget adipiscing convallis sit sit eget
-                        aliquet quis. Suspendisse eget egestas a elementum
-                        pulvinar et feugiat blandit at. In mi viverra elit nunc.
+
                     </p>
                 </div>
                 <div
