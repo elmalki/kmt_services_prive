@@ -24,6 +24,7 @@ class QualityResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'quality';
 
+
     public static function form(Schema $schema): Schema
     {
         return QualityForm::configure($schema);

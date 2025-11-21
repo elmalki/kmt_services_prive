@@ -21,9 +21,9 @@
                 <template v-for="(sponsor, idx) in repeatedLogos" :key="`sponsor-${idx}-${sponsor.id ?? idx}`">
                     <div class="flex items-center justify-center shrink-0" role="listitem">
                         <img
-                            :src="sponsor.image"
+                            :src="'storage/'+sponsor.image"
                             :alt="sponsor.alt || 'Sponsor sponsor'"
-                            class="max-h-12 object-contain"
+                            class="max-h-16 object-contain"
                             loading="lazy"
                             @error="onImgError"
                             :title="sponsor.title || ''"
