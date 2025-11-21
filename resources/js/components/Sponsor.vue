@@ -13,7 +13,7 @@
         >
             <!-- scrolling track (duplicated content for infinite loop) -->
             <div
-                :class="['flex items-center gap-8 whitespace-nowrap will-change-transform',
+                :class="['flex items-center gap-48 whitespace-nowrap will-change-transform',
                  'min-h-[64px]']"
                 :style="trackStyle"
                 role="list"
@@ -23,7 +23,7 @@
                         <img
                             :src="'storage/'+sponsor.image"
                             :alt="sponsor.alt || 'Sponsor sponsor'"
-                            class="max-h-16 object-contain"
+                            class="max-h-32 object-contain"
                             loading="lazy"
                             @error="onImgError"
                             :title="sponsor.title || ''"
