@@ -14,7 +14,7 @@
         class="sponsors-swiper"
     >
         <SwiperSlide v-for="sponsor in props.sponsors" :key="sponsor.id" class="flex items-center justify-center shrink-0"  >
-            <img :src="sponsor.image"  class="max-h-32 object-contain" :alt="sponsor.alt" loading="lazy" />
+            <img :src="'storage/'+sponsor.image"  class="max-h-32 object-contain" :alt="sponsor.alt" loading="lazy" />
         </SwiperSlide>
     </Swiper>
 </template>
