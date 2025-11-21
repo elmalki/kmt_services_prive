@@ -163,11 +163,12 @@
             </div>
 
             <div class="mx-auto my-32 max-w-7xl">
+
                 <Sponsor
                     :sponsors="props.sponsors"
-                    :speed="10"
-                    :duplicates="100"
-                />
+                       :speed="10"
+                       :number="3">
+                </Sponsor>
             </div>
         </main>
 
@@ -202,6 +203,7 @@ import 'swiper/css';
 import { usePage } from '@inertiajs/vue3';
 import AppLayout from './layout/AppLayout.vue';
 import { ArrowPathIcon, ComputerDesktopIcon } from '@heroicons/vue/24/outline';
+import TEST from '@/pages/TEST.vue';
 const page = usePage();
 const props = defineProps({
     realisations: Array,
